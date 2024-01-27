@@ -1,0 +1,26 @@
+/* body {
+    background-color: rgb(214, 214, 214);
+} */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+select,
+option {
+    background-color: transparent;
+}
+
+input {
+    border: 0px;
+    padding: 5px;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+}

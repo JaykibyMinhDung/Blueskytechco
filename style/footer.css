@@ -1,0 +1,21 @@
+/* footer */
+
+/* .footer {
+    margin-top: 3rem;
+} */
+
+.fLists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fText img {
+    margin: 0.4rem;
+}
+
+.fText {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
