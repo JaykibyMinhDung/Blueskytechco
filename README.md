@@ -1,0 +1,1 @@
+Link figma [Layout figma](https://www.figma.com/file/5vBc0HUOxbRowmxjeWSle7/Test-FE?type=design&node-id=428-4026&mode=design)
