@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Neucha&display=swap"
+        rel="stylesheet">
+
     <title>Test convert theme figma</title>
 </head>
 
@@ -38,7 +44,7 @@
             <img src="./svg/logo.svg" alt="" />
             <div class="header__search--container">
                 <div class="header__search">
-                    <div class="header__search--option">
+                    <div class="">
                         <select name="All Categories" id="1" value="All Categories">
                             <option value="All Categories">All Categories</option>
                         </select>
@@ -99,10 +105,10 @@
                     <a href="">Contact Us</a>
                 </div>
                 <div>
-                    <a href="">Buy Uminex</a>
+                    <a href="" style="color: var(--Key-fashion, #DC323C)">Buy Uminex</a>
                 </div>
             </div>
-            <div class="flex-contaniner">
+            <div class="header__sale">
                 <img src="./svg/saleOff.svg" alt="" />
                 <p>Sale $20 Off Your First Order.</p>
             </div>
@@ -145,11 +151,19 @@
                     <option href="">Top Featured Products</option>
                 </select>
             </nav>
-            <div>
+            <div class="main__mobileMenu">
+                <div class="header__menu--catergories">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>Menu</p>
+            </div>
+            <div class="main__images--advertisement">
                 <img src="./svg/banner.svg" alt="" />
-                <img src="./svg/products1.svg" alt="" />
-                <img src="./svg/products2.svg" alt="" />
-                <img src="./svg/products3.svg" alt="" />
+                <img src="./svg/products1.svg" width="33%" alt="" />
+                <img src="./svg/products2.svg" width="33%" alt="" />
+                <img src="./svg/products3.svg" width="33%" alt="" />
             </div>
         </section>
         <section>
@@ -167,57 +181,64 @@
     <footer>
         <div class="footer">
             <div class="fLists">
-                <div>
-                    <h2>ABOUT THE STORE</h2>
+                <div class="footer__container--about">
                     <ul class="fList">
-                        <li class="fListItem">Got question? Call us 24/7</li>
-                        <li class="fListItem">+222 - 1800 - 2628</li>
-                        <li class="fListItem">
+                        <li>
+                            <h4>ABOUT THE STORE</h4>
+                        </li>
+                        <li>Got question? Call us 24/7</li>
+                        <li class="footer__fListItem-numberPhone">+222 - 1800 - 2628</li>
+                        <li>
                             268 St, South New York/NY 98944, United States
                         </li>
-                        <li class="fListItem">Customersupport@example.com</li>
-                        <li class="fListItem">Info@example.com</li>
-                        <!-- <li class="fListItem">Hotels</li> -->
+                        <li>Customersupport@example.com</li>
+                        <li>Info@example.com</li>
                     </ul>
                 </div>
-                <div>
-                    <h2>INFORMATION</h2>
+                <div class="footer__container--information">
                     <ul class="fList">
-                        <li class="fListItem">Blog Us</li>
-                        <li class="fListItem">About Us</li>
-                        <li class="fListItem">Delivery Information</li>
-                        <li class="fListItem">Privacy Policy</li>
-                        <li class="fListItem">FeedBack</li>
-                        <!-- <li class="fListItem">Guest houses</li> -->
+                        <li>
+                            <h4>INFORMATION</h4>
+                        </li>
+                        <li>Blog Us</li>
+                        <li style="text-decoration: underline;">About Us</li>
+                        <li>Delivery Information</li>
+                        <li>Privacy Policy</li>
+                        <li>FeedBack</li>
+                        <!-- <li >Guest houses</li> -->
                     </ul>
                 </div>
-                <div>
-                    <h2>QUICK LINKS</h2>
+                <div class="footer__container--link">
                     <ul class="fList">
-                        <li class="fListItem">Store Location</li>
-                        <li class="fListItem">Orders Tracking</li>
-                        <li class="fListItem">FAQs</li>
+                        <li>
+                            <h4>QUICK LINKS</h4>
+                        </li>
+                        <li>Store Location</li>
+                        <li>Orders Tracking</li>
+                        <li>FAQs</li>
                     </ul>
                 </div>
-                <div>
-                    <h2>SIGN UP TO NEWSLETTER</h2>
+                <div class="footer__container--newsletter">
                     <ul class="fList">
-                        <li class="fListItem">
+                        <li>
+                            <h4>SIGN UP TO NEWSLETTER</h4>
+                        </li>
+                        <li>
                             Join 20.000+ subscribers and get a new discount coupon on every
                             Saturday. Updates information on Sales and Offers.
                         </li>
                         <div>
-                            <input type="text" placeholder="Ypur email address..." />
+                            <input type="text" placeholder="Your email address..." />
                             <button>SUBSCRIBE</button>
                         </div>
                         <p>Subscribe for Uminex and get 20% off your first purchase.</p>
                     </ul>
                 </div>
             </div>
-            <div class="fLists">
-                <div>
-                    Copyright © <span>Uminex</span> all rights reserved. Powered by
-                    <span>Blueskytechco</span>
+            <div class="flex-contaniner">
+                <div class="footer__payment--method">
+                    Copyright © <a>Uminex</a> all rights reserved. Powered by
+                    <a>Blueskytechco</a>
                 </div>
                 <div class="fText">
                     Payment Method :
