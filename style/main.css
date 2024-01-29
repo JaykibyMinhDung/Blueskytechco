@@ -42,6 +42,21 @@
 
 }
 
+@media only screen and (max-width: 1280px) and (min-width: 640px) {
+    .main__images--advertisement>div>img {
+        width: 32.8%;
+    }
+
+    .main__images--advertisement .main__banner--advertisement {
+        width: 100%;
+    }
+
+    .main__navbar {
+        display: none;
+    }
+
+}
+
 
 /* section 2 */
 
@@ -105,11 +120,17 @@
     display: flex;
     flex-direction: column;
     margin-top: 16px;
+    margin-left: 10px;
+}
+
+.instock {
+    margin-left: 10px;
 }
 
 .box .price-sale {
     display: flex;
     gap: 4px;
+    margin-top: 1rem;
     align-items: end;
 }
 
@@ -274,7 +295,9 @@
     font-size: 12px;
 }
 
-.box .timer {}
+.box .checked {
+    color: #FFB800;
+}
 
 .box .timer-timing {
     color: white;
@@ -343,6 +366,7 @@
 
 .box .name-offer {
     font-size: 20px;
+    line-height: 1.5;
 }
 
 .box .line {
@@ -363,25 +387,29 @@
     background-color: #EF262C;
 }
 
-@media only screen and (max-width: 1536px) and (min-width: 1024px) {
+@media only screen and (max-width: 1536px) and (min-width: 1280px) {
     .box .products {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .box .products .products-grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
-    .box .element-wrapper {
-        flex-direction: row;
+    .box .element {
+        padding: 0
     }
+
+    /* .box .element-wrapper {
+        flex-direction: row;
+    } */
 
     .box .flex-1 {
         flex: 1
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 640px) {
+@media only screen and (max-width: 1280px) and (min-width: 640px) {
     .box .products {
         grid-template-columns: 1fr;
     }
@@ -397,14 +425,14 @@
 
 @media only screen and (max-width : 639px) {
     .box .products {
-        grid-template-columns: 0.7fr;
+        grid-template-columns: 1fr;
     }
 
     .box .products .products-grid {
-        grid-template-columns: 0.7fr;
+        grid-template-columns: 1fr;
     }
 
-    .box .flex-1 {
-        flex: 1
+    .box .element-offer {
+        padding: 0
     }
 }
