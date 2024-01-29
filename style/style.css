@@ -45,7 +45,7 @@ button {
     /* font-size: 0.2em; */
     font-weight: 600;
     text-transform: uppercase;
-    padding: 1rem;
+    padding: 0.6rem;
     border-radius: 1.875rem;
     background: var(--Key, #2B38D1);
 }
